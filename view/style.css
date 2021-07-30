@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(210, 227, 231);
+    margin: 0;
+    font-size: 1em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  }
+  #nav {
+    background-color: rgb(167, 183, 187);
+    margin: 0;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  #filtroXAuto {
+    box-sizing: border-box;
+    /* margin-top: 5px; */
+    margin: 5px;
+  }
+  #btnAlta{
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  #btnAlta:hover
+  {
+    background-color: rgb(127, 140, 143);
+  }
+  #filtros {
+    height: 50px;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  input[type="checkbox"] {
+    margin: 10px;
+  }
+  #opciones {
+    display: flex;
+    height: 50px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  header {
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-left: 40px;
+    font-size: 20px;
+  
+  }
+  #precioPromedio {
+    margin-left: 40px;
+    width: 80px;
+  }
+  
+  #container {
+    background-color: aliceblue;
+    width: 400px;
+    padding: 30px;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    flex-direction: column;
+  }
+  input[type="text"],
+  input[type="button"] {
+    margin: 10px;
+  }
+  
+  #formContainer {
+    display: none;
+    margin-left: 15rem;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 12px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px -4px rgba(0, 0, 0, 0.75);
+  }
+  
+  #row {
+    flex-direction: row;
+  }
+  
+  #col {
+    flex-direction: column;
+  }
+  
+  tr:hover {
+    background-color: antiquewhite;
+  }
+  td {
+    padding: 5px;
+  }
+  #tabla {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      align-items: center;
+      text-align: center;
+  }
+  th{
+      font-weight: 700;
+      padding: 40px;
+  }
+  
+  table {
+      width: 50%;
+      margin-right: 5px;
+      justify-content: space-around;
+      position: absolute;
+      box-sizing: border-box;
+      text-align: center;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }

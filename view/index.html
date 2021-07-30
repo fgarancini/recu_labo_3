@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Labo III</title>
+</head>
+<body>
+    <div id="formContainer">
+        <form action="" class="container"id="container">
+            <label for="">ID:</label>
+            <input type="text" id="id" disabled>
+            <label for="">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+            <label for="">Edad:</label>
+            <input type="text" name="edad" id="edad">
+            <label for="">Sexo:</label>
+            <select name="sexo" id="sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            <input type="button" value="Dar Alta" id="btnAltaNueva">
+            <input type="button" value="Cerrar" id="btnCerrar">
+        </form>
+    </div>
+    <div id="nav">
+        <input type="button" value="alta" id="btnAlta" >
+        <input type="button" value="delete" id="btnDelete" >
+    </div>
+
+    <header><h1>Filtros</h1></header>
+
+    <div id="filtros">
+        <h3>Filtrar por:</h3>
+        <select name="sexo" id="sexoFiltro">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select>
+        <h3>Promedio de edad:</h3>
+        <input type="text" name="edadPromedio" id="edadPromedio" disabled>
+    </div>
+
+    <h1>Campos Mostrados</h1>
+    <div id="opciones">
+        <input type="checkbox" class="filtros" name="filtros" id="id" disa> <label for="">ID</label>
+        <input type="checkbox" class="filtros" name="filtros" id="nombre"> <label for="">Nombre</label>
+        <input type="checkbox" class="filtros" name="filtros" id="apellido"><label for="">Apellido</label>
+        <input type="checkbox" class="filtros" name="filtros" id="edad"><label for="">Edad</label>
+        <input type="checkbox" class="filtros" name="filtros" id="Sexo"><label for="">Sexo</label>
+    </div>
+    <h1>Lista de Personas</h1>
+    <div id="tabla">
+
+    </div>
+    <script src="../js/DOMtools.js"></script>
+    <script src="../js/persona.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/cliente.js"></script>
+</body>
+</html>
